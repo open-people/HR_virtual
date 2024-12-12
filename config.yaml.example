@@ -1,0 +1,52 @@
+openai:
+  api_key: "openai_api_key"
+
+database:
+  url: "database_url"
+
+smtp:
+  server: "smtp.gmail.com"              
+  port: 465                          
+  username: "mail"     
+  password: "pass"         
+  use_tls: False
+  from_email: "mail" 
+
+organizations:
+  - name: "Инновационные ТехноСолюшнс"
+    activity: "IT-консалтинг и разработка программного обеспечения"
+    telegram_bot_token: "token1"
+    emails:
+      - "example1@org1.com"
+    messages:
+      - "Как прошла твоя неделя?"
+      - "Расскажи о самом приятном и неприятном случае за последнюю неделю!"
+    survey_schedule:
+      day_of_week: 2
+      hour: 18
+      minute: 04
+      frequency: "weekly"
+    report_schedule:
+      day_of_week: 2
+      hour: 18
+      minute: 17
+      frequency: "weekly"
+
+  - name: "ВебАналитикСервис"
+    activity: "Веб-аналитика и маркетинг"
+    telegram_bot_token: "token2"
+    emails:
+      - "example2@org2.com"
+    messages:
+      - "Как прошел ваш месяц?"
+      - "Что можно улучшить в работе?"
+    survey_schedule:
+      day_of_week: 3
+      hour: 10
+      minute: 0
+      frequency: "monthly"
+    report_schedule:
+      day_of_week: 3
+      hour: 18
+      minute: 0
+      frequency: "monthly"
