@@ -1,0 +1,75 @@
+openai:
+  api_key: "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"
+
+database:
+  url: "postgresql://gen_user:%25.%5Cx%3Ap24dAIN6%25@194.87.115.56:5432/default_db"
+
+smtp:
+  server: "smtp.gmail.com"
+  port: 465
+  username: "f33c2013@gmail.com"
+  password: "ngbg gype ybia ithx"
+  use_tls: False
+  from_email: "f33c2013@gmail.com"
+
+organizations:
+  - name: "Инновационные ТехноСолюшнс"
+    activity: "IT-консалтинг и разработка программного обеспечения"
+    telegram_bot_token: "7317798486:AAH4IxrvKP3CNjqWaXbehNHcKu-btJNM2xM"
+    emails:
+      - "savely.crylov@yandex.ru"
+      - "valdikorot@gmail.com"
+      - "alexzhyliuk3@gmail.com"
+    messages:
+      - "Как прошла твоя неделя?"
+      - "Расскажи о самом приятном и неприятном случае за последнюю неделю!"
+    survey_schedule:
+      day_of_week: 0
+      hour: 21
+      minute: 38
+      frequency: "weekly"
+    report_schedule:
+      day_of_week: 0
+      hour: 21
+      minute: 38
+      frequency: "weekly"
+	  
+  - name: "malimon"
+    activity: "Мероприятие для стартап-проектов и специалистов любого профиля - направлено на создание социальных стартап-проектов за 53 часа, которые положительно влияют на изменения в обществе. В результате мы получим приложения, IT-платформы, ноу-хау технологии"
+    telegram_bot_token: "7811790151:AAFqd77Rs5-KO9ES_5y6k7NEHTkusdIiFDA"
+    emails:
+      - "valdikorot@gmail.com"
+    messages:
+      - "Как прошел хакатон для вас ?"
+      - "Расскажи, что можно было бы улучшить ?"
+    survey_schedule:
+      day_of_week: 0
+      hour: 21
+      minute: 38
+      frequency: "weekly"
+    report_schedule:
+      day_of_week: 3
+      hour: 15
+      minute: 38
+      frequency: "weekly"
+
+  - name: "ВебАналитикСервис"
+    activity: "Веб-аналитика и маркетинг"
+    telegram_bot_token: "7911119514:AAH_DBUEmcCOZa5v30VJ-9UpPw00OYMwEXs"
+    emails:
+      - "savely.crylov@yandex.ru"
+      - "valdikorot@gmail.com"
+      - "alexzhyliuk3@gmail.com"
+    messages:
+      - "Как прошел ваш месяц?"
+      - "Что можно улучшить в работе?"
+    survey_schedule:
+      day_of_week: 16
+      hour: 21
+      minute: 38
+      frequency: "monthly"
+    report_schedule:
+      day_of_week: 16
+      hour: 19
+      minute: 0
+      frequency: "monthly"
