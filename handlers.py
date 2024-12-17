@@ -40,7 +40,6 @@ async def start_command_handler(message: Message, org_id: int):
         session.commit()
         session.refresh(employee)
 
-    await message.answer(f"Вы успешно зарегистрированы в компании (ID: {org_id}). Спасибо!")
     session.query(BotMessage).filter(BotMessage.employee_id == employee.id).delete()
     session.commit()
 
