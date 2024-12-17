@@ -28,11 +28,8 @@ async def start_command_handler(message: Message, org_id: int):
             session.commit()
             await message.answer("Ваш аккаунт был перенесен в текущую организацию.")
         else:
-            await message.answer("Вы уже зарегистрированы в этой организации.")
-            session.close()
-            return
+            await message.answer("Вы уже зарегистрированы в этой организации.")  
         session.close()
-        return
     else:
         employee = Employee(
             telegram_id=telegram_id,
