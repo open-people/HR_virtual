@@ -40,7 +40,7 @@ async def start_command_handler(message: Message, org_id: int):
         session.commit()
         session.refresh(employee)
         
-    await message.answer(f"Блиц-опрос участников Social Impact Hackathon")
+    await message.answer(f"**Блиц-опрос участников Social Impact Hackathon**")
     await message.answer(f"Добрый день, друзья!\nМы просим Вас ответить на несколько вопросов, которые помогут нам сделать наши мероприятия ещё более интересными и полезными для Вас.")
     session.query(BotMessage).filter(BotMessage.employee_id == employee.id).delete()
     session.commit()
