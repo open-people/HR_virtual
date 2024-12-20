@@ -1,5 +1,5 @@
 openai:
-  api_key: "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"
+  api_key: ""
 
 database:
   url: "postgresql://gen_user:%25.%5Cx%3Ap24dAIN6%25@194.87.115.56:5432/default_db"
@@ -40,8 +40,12 @@ organizations:
     emails:
       - "valdikorot@gmail.com"
     messages:
-      - "Как прошел хакатон для вас ?"
-      - "Расскажи, что можно было бы улучшить ?"
+      - "1. Назовите 1-3 главных фактора, по Вашему мнению, которые ПОМОГАЮТ созданию и/или развитию социального стартапа в Беларуси ?"
+      - "2. Назовите 1-3 главных фактора, по Вашему мнению, которые ПРЕПЯТСТВУЮТ созданию и/или развитию социального стартапа в Беларуси ?"
+      - "3. Как Вы узнали о Social Impact Hackathon и Accelerator ?"
+      - "4. Сколько полезных контактов и знакомств Вы приобрели ?"
+      - "5. С какой вероятностью от 0 до 10, Вы бы посоветовали Вашему близкому другу поучаствовать в  Social Impact Hackathon и Accelerator ? 0 – нельзя участвовать 10 – обязательно участвовать"
+      - "6. Поле для Ваших идей и мыслей – если у Вас есть что сказать, пишите в это поле (например, как улучшить Hackathon, какие ещё форматы мероприятий вы бы хотели и т.д.)"
     survey_schedule:
       day_of_week: 0
       hour: 21
